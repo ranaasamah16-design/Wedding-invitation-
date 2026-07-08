@@ -345,3 +345,151 @@ padding:35px;
 }
 
 }
+
+/* =========================
+   COUPLE SECTION
+========================= */
+
+.couple-section,
+.countdown-section{
+
+padding:90px 20px;
+text-align:center;
+
+}
+
+
+.couple-section h2,
+.countdown-section h2{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:42px;
+
+color:#7a263a;
+
+margin-bottom:40px;
+
+}
+
+
+.ornament{
+
+color:#c8a14d;
+
+font-size:25px;
+
+margin-bottom:20px;
+
+}
+
+
+.couple-container{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:35px;
+
+flex-wrap:wrap;
+
+}
+
+
+.person-card{
+
+background:white;
+
+padding:40px;
+
+width:350px;
+
+border-radius:25px;
+
+border:1px solid #d9bd7a;
+
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+}
+
+
+.person-card h1{
+
+font-family:'Great Vibes',cursive;
+
+font-size:45px;
+
+color:#7a263a;
+
+margin:20px 0;
+
+}
+
+
+.role{
+
+color:#c8a14d;
+
+letter-spacing:3px;
+
+}
+
+
+.heart{
+
+font-size:55px;
+
+color:#c8a14d;
+
+}
+
+
+/* COUNTDOWN */
+
+.countdown-box{
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+}
+
+
+.countdown-box div{
+
+background:white;
+
+border:1px solid #d9bd7a;
+
+width:130px;
+
+padding:25px;
+
+border-radius:20px;
+
+}
+
+
+.countdown-box h1{
+
+font-size:45px;
+
+color:#7a263a;
+
+font-family:'Cormorant Garamond',serif;
+
+}
+
+
+.countdown-box p{
+
+color:#c8a14d;
+
+}
