@@ -79,3 +79,24 @@ document.getElementById("seconds").innerHTML=seconds;
 
 
 },1000);
+
+const form = document.getElementById("rsvpForm");
+
+const thanks = document.getElementById("thanksMessage");
+
+if(form){
+
+form.addEventListener("submit",function(e){
+
+e.preventDefault();
+
+const name=document.getElementById("guestName").value;
+
+thanks.innerHTML=
+"❤️ Thank you, <b>"+name+"</b>! Your response has been received.";
+
+form.reset();
+
+});
+
+}
