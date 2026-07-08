@@ -1,195 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Wedding Invitation</title>
+    <title>Rana ❤️ Samah | Wedding Invitation</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<div class="loader">
-<h2>Loading Our Love Story...</h2>
-</div>
+<!-- ================= LOADER ================= -->
 
-<header class="hero">
+<div id="loader">
 
-<div class="overlay"></div>
+    <div class="envelope">
 
-<div class="hero-content">
+        <div class="seal">
+            R ❤️ S
+        </div>
 
-<h4>Together With Their Families</h4>
+        <p class="bismillah">﷽</p>
 
-<h1>
+        <h1>Wedding Invitation</h1>
 
-<span class="groom">MUHAMMED SAMAH MUJEEB </span><br>
+        <p class="subtitle">
+            Together with our families,
+            we joyfully invite you to celebrate our Nikah.
+        </p>
 
-<span class="and">&</span>
+        <button id="openInvitation">
+            Open Invitation
+        </button>
 
-<span class="bride">RANA FATHIMA </span><br>
-
-</h1>
-
-<p class="invite">
-Request the honour of your presence at the celebration of their marriage.
-</p>
-
-<a href="#countdown" class="btn">
-Open Invitation
-</a>
+    </div>
 
 </div>
 
-</header>
+<!-- Decorative Background -->
 
-<section id="countdown" class="countdown">
+<div class="background"></div>
 
-<h2>Counting Down To Forever ❤️</h2>
+<!-- ================= HERO ================= -->
 
-<div class="timer">
+<section class="hero">
 
-<div>
-<span id="days">00</span>
-<p>Days</p>
-</div>
+    <div class="hero-card">
 
-<div>
-<span id="hours">00</span>
-<p>Hours</p>
-</div>
+        <p class="arabic">
+            بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْم
+        </p>
 
-<div>
-<span id="minutes">00</span>
-<p>Minutes</p>
-</div>
+        <h3>With the Blessings of Allah</h3>
 
-<div>
-<span id="seconds">00</span>
-<p>Seconds</p>
-</div>
+        <h1 class="couple-name">
 
-</div>
+            Rana Fathima
+
+            <span>&</span>
+
+            Muhammed Samah
+
+        </h1>
+
+        <p class="verse">
+
+            "And We created you in pairs."
+
+            <br>
+
+            <strong>Qur'an 78:8</strong>
+
+        </p>
+
+        <div class="date-box">
+
+            <h2>16</h2>
+
+            <p>August 2026</p>
+
+            <span>Sunday • 10:30 AM</span>
+
+        </div>
+
+    </div>
 
 </section>
-
-<section class="details">
-
-<h2>Wedding Details</h2>
-
-<div class="card">
-
-<h3> Date</h3>
-
-<p>16 AUGUST 2026</p>
-
-</div>
-
-<div class="card">
-
-<h3>🕐 Time</h3>
-
-<p>10:30 AMonwards</p>
-
-</div>
-
-<div class="card">
-
-<h3>📍 Venue</h3>
-
-<p>GRAND MALABAR AUDITORIUM </p>
-
-<p>SIDHEEK NAGAR,IRIKKUR</p>
-
-</div>
-
-</section>
-
-<section class="schedule">
-
-<h2>Program Schedule</h2>
-
-<div class="timeline">
-
-<div class="event">
-
-</div>
-
-<div class="event">
-
-<h3>10:30 PM</h3>
-
-<p>Wedding Ceremony</p>
-
-</ul>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="venue">
-
-<h2>Venue Location</h2>
-
-<p>Scan the QR Code to Navigate</p>
-
-<img src="images/qr.png" class="qr">
-
-<a href="#" class="map-btn">
-Open Google Maps
-</a>
-
-</section>
-
-<section class="gallery">
-
-</div>
-
-</section>
-
-<section class="rsvp">
-
-<h2>Will You Join Us?</h2>
-
-<form id="rsvpForm">
-
-<input type="text" placeholder="Your Name" required>
-
-<input type="number" id="members" placeholder="Number of Guests" min="1" required>
-
-<button type="submit">
-Confirm Attendance
-</button>
-
-</form>
-
-<h3>
-
-Guests Confirmed:
-<span id="guestCount">0</span>
-
-</h3>
-
-</section>
-
-<footer>
-
-<h2>Thank You ❤️</h2>
-
-<p>We look forward to celebrating our special day with you.</p>
-
-</footer>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
