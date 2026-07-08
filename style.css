@@ -443,3 +443,651 @@ font-size:30px;
 margin-bottom:25px;
 
 }
+
+/*=================================================
+COUPLE SECTION
+==================================================*/
+
+.couple-section{
+    text-align:center;
+}
+
+.ornament{
+    color:#cfa44f;
+    font-size:24px;
+    letter-spacing:6px;
+    margin-bottom:20px;
+}
+
+.couple-container{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    flex-wrap:wrap;
+    margin-top:50px;
+
+}
+
+.person-card{
+
+    width:360px;
+
+    background:white;
+
+    border-radius:28px;
+
+    padding:45px 35px;
+
+    border:1px solid rgba(207,164,79,.35);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+}
+
+.person-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.role{
+
+letter-spacing:4px;
+
+text-transform:uppercase;
+
+color:#cfa44f;
+
+font-size:14px;
+
+}
+
+.person-card h1{
+
+font-family:'Great Vibes',cursive;
+
+font-size:56px;
+
+color:#7a263a;
+
+margin:18px 0;
+
+}
+
+.person-card p{
+
+line-height:1.9;
+
+color:#666;
+
+}
+
+.heart{
+
+font-size:60px;
+
+color:#cfa44f;
+
+}
+
+/*=================================================
+COUNTDOWN
+==================================================*/
+
+.countdown-section{
+
+text-align:center;
+
+}
+
+.countdown-box{
+
+display:flex;
+
+justify-content:center;
+
+gap:22px;
+
+flex-wrap:wrap;
+
+margin-top:50px;
+
+}
+
+.countdown-box div{
+
+background:white;
+
+width:150px;
+
+padding:30px;
+
+border-radius:25px;
+
+border:1px solid rgba(207,164,79,.35);
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+transition:.35s;
+
+}
+
+.countdown-box div:hover{
+
+transform:translateY(-6px);
+
+}
+
+.countdown-box h1{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:60px;
+
+color:#7a263a;
+
+margin-bottom:8px;
+
+}
+
+.countdown-box p{
+
+letter-spacing:2px;
+
+color:#cfa44f;
+
+font-size:14px;
+
+text-transform:uppercase;
+
+}
+
+/*=================================================
+VENUE
+==================================================*/
+
+.venue-section{
+
+text-align:center;
+
+}
+
+.venue-card{
+
+max-width:950px;
+
+margin:auto;
+
+background:white;
+
+padding:50px;
+
+border-radius:30px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+gap:40px;
+
+flex-wrap:wrap;
+
+border:1px solid rgba(207,164,79,.35);
+
+box-shadow:0 20px 50px rgba(0,0,0,.08);
+
+}
+
+.venue-details{
+
+flex:1;
+
+min-width:280px;
+
+}
+
+.venue-details h1{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:42px;
+
+color:#7a263a;
+
+margin-bottom:20px;
+
+}
+
+.venue-details p{
+
+margin:15px 0;
+
+font-size:18px;
+
+color:#666;
+
+}
+
+.qr-box{
+
+text-align:center;
+
+}
+
+.qr-box img{
+
+width:180px;
+
+border-radius:15px;
+
+padding:8px;
+
+background:white;
+
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+.qr-box p{
+
+margin-top:15px;
+
+font-size:14px;
+
+color:#777;
+
+}
+
+/*=================================================
+RSVP
+==================================================*/
+
+.rsvp-section{
+
+text-align:center;
+
+}
+
+.rsvp-subtitle{
+
+margin-bottom:35px;
+
+color:#777;
+
+}
+
+#rsvpForm{
+
+max-width:700px;
+
+margin:auto;
+
+}
+
+#rsvpForm input,
+#rsvpForm textarea,
+#rsvpForm select{
+
+width:100%;
+
+padding:18px;
+
+margin:12px 0;
+
+border-radius:15px;
+
+border:1px solid rgba(207,164,79,.35);
+
+background:white;
+
+font-size:16px;
+
+outline:none;
+
+transition:.3s;
+
+}
+
+#rsvpForm input:focus,
+#rsvpForm textarea:focus,
+#rsvpForm select:focus{
+
+border-color:#cfa44f;
+
+box-shadow:0 0 10px rgba(207,164,79,.25);
+
+}
+
+#rsvpForm textarea{
+
+min-height:150px;
+
+resize:vertical;
+
+}
+
+#thanksMessage{
+
+margin-top:25px;
+
+font-size:18px;
+
+font-weight:600;
+
+color:#7a263a;
+
+
+}
+/*=================================================
+DUA SECTION
+==================================================*/
+
+.dua-section{
+
+text-align:center;
+
+padding:100px 20px;
+
+}
+
+.dua-arabic{
+
+font-size:34px;
+
+line-height:2;
+
+color:#7a263a;
+
+max-width:900px;
+
+margin:35px auto;
+
+font-family:'Cormorant Garamond',serif;
+
+}
+
+.dua-english{
+
+font-size:18px;
+
+line-height:1.9;
+
+max-width:750px;
+
+margin:auto;
+
+font-style:italic;
+
+color:#666;
+
+}
+
+/*=================================================
+FOOTER
+==================================================*/
+
+footer{
+
+margin-top:70px;
+
+padding:80px 20px;
+
+text-align:center;
+
+background:linear-gradient(135deg,#7a263a,#5e1d2d);
+
+color:white;
+
+border-top:5px solid #cfa44f;
+
+}
+
+footer h2{
+
+font-family:'Great Vibes',cursive;
+
+font-size:62px;
+
+margin-bottom:20px;
+
+font-weight:400;
+
+}
+
+footer p{
+
+max-width:700px;
+
+margin:15px auto;
+
+line-height:1.9;
+
+opacity:.95;
+
+}
+
+/*=================================================
+ANIMATIONS
+==================================================*/
+
+.hidden{
+
+opacity:0;
+
+transform:translateY(70px);
+
+transition:all .9s ease;
+
+}
+
+.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+.person-card,
+.venue-card,
+.countdown-box div,
+.hero-card{
+
+transition:all .35s ease;
+
+}
+
+.hero-card:hover{
+
+transform:translateY(-6px);
+
+}
+
+.person-card:hover,
+.venue-card:hover,
+.countdown-box div:hover{
+
+box-shadow:0 25px 60px rgba(0,0,0,.12);
+
+}
+
+/*=================================================
+SCROLLBAR
+==================================================*/
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#faf4ec;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#cfa44f;
+
+border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+background:#b88d35;
+
+}
+
+/*=================================================
+MOBILE
+==================================================*/
+
+@media(max-width:900px){
+
+.hero-card{
+
+padding:45px 28px;
+
+width:95%;
+
+}
+
+.couple-name{
+
+font-size:58px;
+
+}
+
+.couple-name span{
+
+font-size:45px;
+
+}
+
+.arabic{
+
+font-size:30px;
+
+}
+
+.date-box{
+
+width:100%;
+
+padding:22px;
+
+}
+
+.date-box h2{
+
+font-size:50px;
+
+}
+
+.person-card{
+
+width:100%;
+
+}
+
+.venue-card{
+
+padding:35px 20px;
+
+}
+
+.venue-details h1{
+
+font-size:34px;
+
+}
+
+.qr-box img{
+
+width:150px;
+
+}
+
+footer h2{
+
+font-size:48px;
+
+}
+
+}
+
+@media(max-width:600px){
+
+section{
+
+padding:70px 15px;
+
+}
+
+h2{
+
+font-size:36px;
+
+}
+
+.countdown-box{
+
+gap:15px;
+
+}
+
+.countdown-box div{
+
+width:130px;
+
+padding:22px;
+
+}
+
+.countdown-box h1{
+
+font-size:42px;
+
+}
+
+.dua-arabic{
+
+font-size:24px;
+
+line-height:1.8;
+
+}
+
+button,
+.map-button{
+
+width:100%;
+
+}
+
+body::after{
+
+top:10px;
+
+left:10px;
+
+right:10px;
+
+bottom:10px;
+
+}
+
+}
+
+/*=================================================
+END
+==================================================*/
