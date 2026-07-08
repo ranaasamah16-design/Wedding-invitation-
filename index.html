@@ -251,6 +251,42 @@ Scan for directions
 
 <script src="script.js"></script>
 
+ <section class="rsvp-section">
+
+    <div class="ornament">✦ ✦ ✦</div>
+
+    <h2>Kindly Respond</h2>
+
+    <p class="rsvp-subtitle">
+        We would be honored to have your presence.
+    </p>
+
+    <form id="rsvpForm">
+
+        <input type="text" id="guestName" placeholder="Full Name" required>
+
+        <input type="tel" id="phone" placeholder="Mobile Number">
+
+        <input type="number" id="adults" placeholder="Adults" min="1" required>
+
+        <input type="number" id="children" placeholder="Children" min="0" value="0">
+
+        <select id="attendance" required>
+            <option value="">Will you attend?</option>
+            <option value="Yes">Yes, In Sha Allah</option>
+            <option value="No">Regretfully No</option>
+        </select>
+
+        <textarea id="message" placeholder="Leave your blessings (Optional)"></textarea>
+
+        <button type="submit">Confirm Attendance</button>
+
+    </form>
+
+    <div id="thanksMessage"></div>
+
+</section>
+
 </body>
 
 </html>
