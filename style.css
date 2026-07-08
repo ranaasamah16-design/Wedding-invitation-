@@ -758,3 +758,76 @@ radial-gradient(circle at top,#fffdfb,#f9f1e8);
     font-weight:600;
 
 }
+
+/* =========================
+DUA
+========================= */
+
+.dua-section{
+
+padding:90px 20px;
+
+text-align:center;
+
+}
+
+.dua-arabic{
+
+font-size:34px;
+
+line-height:2;
+
+color:#7a263a;
+
+margin:30px auto;
+
+max-width:900px;
+
+}
+
+.dua-english{
+
+font-style:italic;
+
+color:#666;
+
+max-width:700px;
+
+margin:auto;
+
+}
+
+
+/* FOOTER */
+
+footer{
+
+padding:70px 20px;
+
+background:#7a263a;
+
+color:white;
+
+text-align:center;
+
+margin-top:60px;
+
+}
+
+footer h2{
+
+font-family:'Great Vibes',cursive;
+
+font-size:55px;
+
+margin-bottom:20px;
+
+}
+
+footer p{
+
+line-height:1.8;
+
+opacity:.9;
+
+}
