@@ -704,3 +704,57 @@ background:
 radial-gradient(circle at top,#fffdfb,#f9f1e8);
 
 }
+
+/* RSVP */
+
+.rsvp-section{
+    padding:90px 20px;
+    text-align:center;
+}
+
+.rsvp-subtitle{
+    color:#7a263a;
+    margin-bottom:30px;
+}
+
+#rsvpForm{
+    max-width:650px;
+    margin:auto;
+}
+
+#rsvpForm input,
+#rsvpForm textarea,
+#rsvpForm select{
+
+    width:100%;
+    padding:16px;
+    margin:12px 0;
+
+    border:1px solid #d8c7a1;
+
+    border-radius:15px;
+
+    background:white;
+
+    font-size:16px;
+
+}
+
+#rsvpForm textarea{
+
+    min-height:130px;
+    resize:vertical;
+
+}
+
+#thanksMessage{
+
+    margin-top:25px;
+
+    color:#7a263a;
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
