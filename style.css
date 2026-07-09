@@ -636,3 +636,64 @@ body::after{
 }
 
 }
+
+/* Floating Hearts */
+
+.floating-heart{
+
+position:fixed;
+
+bottom:-20px;
+
+font-size:25px;
+
+color:#d4af37;
+
+animation:floatHeart linear forwards;
+
+z-index:10;
+
+pointer-events:none;
+
+}
+
+
+@keyframes floatHeart{
+
+from{
+
+transform:translateY(0);
+opacity:1;
+
+}
+
+to{
+
+transform:translateY(-110vh);
+opacity:0;
+
+}
+
+}
+
+
+/* Scroll animation */
+
+.hidden{
+
+opacity:0;
+
+transform:translateY(40px);
+
+transition:1s ease;
+
+}
+
+
+.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
