@@ -179,7 +179,7 @@ body::after{
 
 
 /* =================================
-   HERO TEXT
+   HERO TEXT STYLING
 ================================= */
 
 
@@ -207,7 +207,7 @@ body::after{
 
 
 
-/* Names */
+/* Hero Couple Names */
 
 .hero-names{
 
@@ -217,15 +217,33 @@ body::after{
 
     font-weight:400;
 
-    line-height:1.25;
+    line-height:1.2;
 
     color:#7b2033;
+
+    text-align:center;
+
+    margin:10px auto;
 
 }
 
 
 
-.hero-names span{
+/* Each name stays as one line */
+
+.hero-names .name-line{
+
+    display:block;
+
+    white-space:nowrap;
+
+}
+
+
+
+/* Ampersand styling */
+
+.hero-names .amp{
 
     display:block;
 
@@ -233,21 +251,11 @@ body::after{
 
     font-size:55px;
 
-}
+    line-height:1;
 
-
-
-.groom-name,
-.bride-name{
-
-    white-space:nowrap;
-
-    word-break:keep-all;
-
-    overflow-wrap:normal;
+    margin:10px 0;
 
 }
-
 
 
 
@@ -272,6 +280,53 @@ body::after{
     color:#8d7a68;
 
 }
+
+
+
+
+
+/* Mobile */
+
+@media(max-width:768px){
+
+
+.hero-names{
+
+    font-size:55px;
+
+}
+
+
+.hero-names .amp{
+
+    font-size:40px;
+
+}
+
+
+}
+
+
+
+@media(max-width:420px){
+
+
+.hero-names{
+
+    font-size:42px;
+
+}
+
+
+.hero-names .amp{
+
+    font-size:35px;
+
+}
+
+
+}
+
 
 
 
