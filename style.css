@@ -354,3 +354,139 @@ body::after{
 
 
 }
+
+/* =========================
+   COUPLE SECTION
+========================= */
+
+.couple{
+
+    padding:100px 30px;
+
+    text-align:center;
+
+}
+
+
+.section-title p{
+
+    color:#c8a14d;
+
+    letter-spacing:2px;
+
+}
+
+
+.section-title h2{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:55px;
+
+    color:#7b2033;
+
+    margin:15px 0 50px;
+
+}
+
+
+
+.couple-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:35px;
+
+    flex-wrap:wrap;
+
+}
+
+
+
+.person-card{
+
+    width:350px;
+
+    padding:40px;
+
+    background:#fffaf3;
+
+    border-radius:25px;
+
+    border:1px solid #d4af37;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+
+
+.person-card h3{
+
+    color:#c8a14d;
+
+    letter-spacing:3px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.person-card h1{
+
+    font-family:'Great Vibes',cursive;
+
+    font-size:45px;
+
+    color:#7b2033;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.person-card p{
+
+    line-height:1.8;
+
+}
+
+
+
+.heart{
+
+    font-size:45px;
+
+    animation:pulse 2s infinite;
+
+}
+
+
+
+@keyframes pulse{
+
+    50%{
+
+        transform:scale(1.15);
+
+    }
+
+}
+
+
+
+@media(max-width:768px){
+
+.person-card{
+
+    width:100%;
+
+}
+
+}
