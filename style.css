@@ -490,3 +490,149 @@ body::after{
 }
 
 }
+
+/* =========================
+   COUNTDOWN
+========================= */
+
+
+.countdown,
+.event{
+
+    padding:100px 30px;
+
+    text-align:center;
+
+}
+
+
+.timer{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+}
+
+
+.timer div{
+
+    width:130px;
+
+    padding:25px;
+
+    background:#fffaf3;
+
+    border:1px solid #d4af37;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+
+.timer h1{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:50px;
+
+    color:#7b2033;
+
+}
+
+
+
+.timer p{
+
+    color:#8b7a6d;
+
+}
+
+
+
+/* EVENT */
+
+.event-card{
+
+    max-width:900px;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:25px;
+
+}
+
+
+.event-item{
+
+    width:260px;
+
+    padding:35px 25px;
+
+    background:#fffaf3;
+
+    border-radius:25px;
+
+    border:1px solid #d4af37;
+
+}
+
+
+
+.event-item span{
+
+    font-size:35px;
+
+}
+
+
+.event-item h3{
+
+    color:#7b2033;
+
+    margin:15px 0;
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:30px;
+
+}
+
+
+
+.event-item p{
+
+    line-height:1.8;
+
+}
+
+
+
+@media(max-width:768px){
+
+.timer div{
+
+    width:100px;
+
+}
+
+
+.event-item{
+
+    width:100%;
+
+}
+
+}
