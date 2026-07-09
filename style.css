@@ -1,398 +1,61 @@
-/*=================================================
-  RANA ❤️ SAMAH WEDDING INVITATION
-  Premium Luxury Theme
-==================================================*/
-
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Poppins:wght@300;400;500&display=swap');
-
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 html{
-scroll-behavior:smooth;
+    scroll-behavior:smooth;
 }
-
 body{
-
-font-family:'Poppins',sans-serif;
-
-color:#5d4b43;
-
-background:
-linear-gradient(180deg,#fffdfb,#faf4ec,#fffdfb);
-
-overflow-x:hidden;
-
-position:relative;
-
+    font-family:'Poppins',sans-serif;
+    background:#fffaf7;
+    color:#5b4d45;
+    overflow-x:hidden;
 }
-
-/* Gold glow */
 
 body::before{
-
-content:"";
-
-position:fixed;
-
-inset:0;
-
-background:
-
-radial-gradient(circle at top left,
-rgba(212,175,55,.10),
-transparent 35%),
-
-radial-gradient(circle at top right,
-rgba(122,38,58,.08),
-transparent 35%),
-
-radial-gradient(circle at bottom left,
-rgba(212,175,55,.08),
-transparent 35%),
-
-radial-gradient(circle at bottom right,
-rgba(122,38,58,.08),
-transparent 35%);
-
-pointer-events:none;
-
-z-index:-2;
-
-}
-
-/* Luxury frame */
-
-body::after{
-
-content:"";
-
-position:fixed;
-
-top:18px;
-
-left:18px;
-
-right:18px;
-
-bottom:18px;
-
-border:2px solid rgba(206,173,92,.45);
-
-border-radius:30px;
-
-pointer-events:none;
-
-z-index:100;
-
-}
-
-/* Sections */
-
-section{
-
-padding:90px 60px;
-
-position:relative;
-
-}
-
-section::before{
-
-content:"";
-
-width:180px;
-
-height:2px;
-
-background:#cfa44f;
-
-display:block;
-
-margin:0 auto 30px;
-
-}
-
-section::after{
-
-content:"❦";
-
-display:block;
-
-margin-top:30px;
-
-text-align:center;
-
-color:#cfa44f;
-
-font-size:22px;
-
-}
-
-/* Headings */
-
-h2{
-
-font-family:'Cormorant Garamond',serif;
-
-font-size:48px;
-
-font-weight:600;
-
-color:#7a263a;
-
-margin-bottom:20px;
-
-}
-
-h3{
-
-letter-spacing:4px;
-
-font-weight:400;
-
-color:#cfa44f;
-
-}
-
-/* Hero */
-
-.hero{
-
-min-height:100vh;
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-padding:70px 60px;
-
-}
-
-.hero-card{
-
-width:97%;
-
-max-width:1200px;
-
-background:rgba(255,255,255,.90);
-
-border-radius:35px;
-
-padding:70px 60px;
-
-text-align:center;
-
-border:1px solid rgba(207,164,79,.35);
-
-box-shadow:
-
-0 25px 60px rgba(0,0,0,.08),
-
-0 0 40px rgba(212,175,55,.08);
-
-position:relative;
-
-overflow:hidden;
-
-}
-
-/* Decorative corners */
-
-.hero-card::before{
-
-content:"";
-
-position:absolute;
-
-top:-60px;
-
-left:-60px;
-
-width:190px;
-
-height:180px;
-
-border:3px solid rgba(207,164,79,.35);
-
-border-radius:50%;
-
-}
-
-.hero-card::after{
-
-content:"";
-
-position:absolute;
-
-bottom:-60px;
-
-right:-60px;
-
-width:190px;
-
-height:180px;
-
-border:3px solid rgba(207,164,79,.35);
-
-border-radius:50%;
-
-}
-
-/* Arabic */
-
-.arabic{
-
-font-size:40px;
-
-color:#7a263a;
-
-margin-bottom:25px;
-
-}
-
-/* Couple names */
-
-.couple-name{
-
-font-family:'Great Vibes',cursive;
-
-font-size:82px;
-
-font-weight:400;
-
-line-height:1.25;
-
-color:#7a263a;
-
-margin:30px 0;
-
-}
-
-.couple-name span{
-
-display:block;
-
-font-size:60px;
-
-color:#cfa44f;
-
-margin:15px 0;
-
-}
-
-/* Verse */
-
-.verse{
-
-font-style:italic;
-
-font-size:20px;
-
-line-height:1.8;
-
-margin-top:30px;
-
-}
-
-/* Date card */
-
-.date-box{
-
-display:inline-block;
-
-margin-top:45px;
-
-padding:25px 55px;
-
-border-radius:25px;
-
-border:2px solid rgba(207,164,79,.45);
-
-background:#fffdfc;
-
-}
-
-.date-box h2{
-
-font-size:65px;
-
-margin:0;
-
-}
-
-.date-box p{
-
-font-size:22px;
-
-margin-top:8px;
-
-}
-
-.date-box span{
-
-color:#777;
-
-}
-
-/* Buttons */
-
-button,
-
-.map-button{
-
-background:linear-gradient(135deg,#d7b35d,#b98d33);
-
-border:none;
-
-color:white;
-
-padding:16px 38px;
-
-border-radius:40px;
-
-cursor:pointer;
-
-font-size:16px;
-
-transition:.35s;
-
-text-decoration:none;
-
-display:inline-block;
-
-}
-
-button:hover,
-
-.map-button:hover{
-
-transform:translateY(-3px);
-
-box-shadow:0 10px 25px rgba(212,175,55,.35);
-
-}
-
-/* Loader */
+    content:"";
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+
+    background:
+    linear-gradient(
+        rgba(255,250,248,.82),
+        rgba(255,247,244,.88)
+    ),
+    url("images/floral-bg.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+    z-index:-5;
+}/* ===========================
+   LOADER
+=========================== */
 
 #loader{
 
 position:fixed;
 
-inset:0;
+top:0;
+left:0;
+
+width:100%;
+height:100%;
+
+background:#fbf7f1;
 
 display:flex;
 
 justify-content:center;
 
 align-items:center;
-
-background:#fbf8f3;
 
 z-index:9999;
 
@@ -400,263 +63,65 @@ z-index:9999;
 
 .envelope{
 
+width:360px;
+
+padding:50px;
+
 background:white;
 
-padding:45px;
-
-width:360px;
+border:2px solid #d2b36c;
 
 border-radius:25px;
 
-border:1px solid rgba(207,164,79,.45);
-
-box-shadow:0 25px 60px rgba(0,0,0,.12);
-
 text-align:center;
+
+box-shadow:0 20px 45px rgba(0,0,0,.15);
 
 }
 
 .seal{
 
-width:90px;
+width:85px;
 
-height:90px;
+height:85px;
+
+background:#7a263a;
 
 margin:auto;
 
 border-radius:50%;
 
-background:#7a263a;
-
 display:flex;
+
+justify-content:center;
 
 align-items:center;
 
-justify-content:center;
+font-family:'Great Vibes',cursive;
+
+font-size:28px;
 
 color:white;
 
-font-family:'Great Vibes',cursive;
-
-font-size:30px;
-
-margin-bottom:25px;
+margin-bottom:30px;
 
 }
 
-/*=================================================
-COUPLE SECTION
-==================================================*/
+.bismillah{
 
-.couple-section{
-    text-align:center;
-}
-
-.ornament{
-    color:#cfa44f;
-    font-size:24px;
-    letter-spacing:6px;
-    margin-bottom:20px;
-}
-
-.couple-container{
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:40px;
-    flex-wrap:wrap;
-    margin-top:50px;
-
-}
-
-.person-card{
-
-    width:360px;
-
-    background:white;
-
-    border-radius:28px;
-
-    padding:45px 35px;
-
-    border:1px solid rgba(207,164,79,.35);
-
-    box-shadow:0 20px 45px rgba(0,0,0,.08);
-
-    transition:.4s;
-
-}
-
-.person-card:hover{
-
-transform:translateY(-8px);
-
-}
-
-.role{
-
-letter-spacing:4px;
-
-text-transform:uppercase;
-
-color:#cfa44f;
-
-font-size:14px;
-
-}
-
-.person-card h1{
-
-font-family:'Great Vibes',cursive;
-
-font-size:56px;
+font-size:45px;
 
 color:#7a263a;
 
-margin:18px 0;
+margin-bottom:15px;
 
 }
 
-.person-card p{
-
-line-height:1.9;
-
-color:#666;
-
-}
-
-.heart{
-
-font-size:60px;
-
-color:#cfa44f;
-
-}
-
-/*=================================================
-COUNTDOWN
-==================================================*/
-
-.countdown-section{
-
-text-align:center;
-
-}
-
-.countdown-box{
-
-display:flex;
-
-justify-content:center;
-
-gap:22px;
-
-flex-wrap:wrap;
-
-margin-top:50px;
-
-}
-
-.countdown-box div{
-
-background:white;
-
-width:150px;
-
-padding:30px;
-
-border-radius:25px;
-
-border:1px solid rgba(207,164,79,.35);
-
-box-shadow:0 15px 35px rgba(0,0,0,.08);
-
-transition:.35s;
-
-}
-
-.countdown-box div:hover{
-
-transform:translateY(-6px);
-
-}
-
-.countdown-box h1{
+.envelope h1{
 
 font-family:'Cormorant Garamond',serif;
 
-font-size:60px;
-
-color:#7a263a;
-
-margin-bottom:8px;
-
-}
-
-.countdown-box p{
-
-letter-spacing:2px;
-
-color:#cfa44f;
-
-font-size:14px;
-
-text-transform:uppercase;
-
-}
-
-/*=================================================
-VENUE
-==================================================*/
-
-.venue-section{
-
-text-align:center;
-
-}
-
-.venue-card{
-
-max-width:950px;
-
-margin:auto;
-
-background:white;
-
-padding:50px;
-
-border-radius:30px;
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-gap:40px;
-
-flex-wrap:wrap;
-
-border:1px solid rgba(207,164,79,.35);
-
-box-shadow:0 20px 50px rgba(0,0,0,.08);
-
-}
-
-.venue-details{
-
-flex:1;
-
-min-width:280px;
-
-}
-
-.venue-details h1{
-
-font-family:'Cormorant Garamond',serif;
-
-font-size:42px;
+font-size:38px;
 
 color:#7a263a;
 
@@ -664,225 +129,220 @@ margin-bottom:20px;
 
 }
 
-.venue-details p{
+.subtitle{
 
-margin:15px 0;
+line-height:1.8;
 
-font-size:18px;
-
-color:#666;
+margin-bottom:30px;
 
 }
 
-.qr-box{
+#openInvitation{
 
-text-align:center;
+padding:15px 35px;
 
-}
+background:#c8a14d;
 
-.qr-box img{
+color:white;
 
-width:180px;
+border:none;
 
-border-radius:15px;
+border-radius:40px;
 
-padding:8px;
+font-size:17px;
 
-background:white;
-
-box-shadow:0 10px 30px rgba(0,0,0,.15);
-
-}
-
-.qr-box p{
-
-margin-top:15px;
-
-font-size:14px;
-
-color:#777;
-
-}
-
-/*=================================================
-RSVP
-==================================================*/
-
-.rsvp-section{
-
-text-align:center;
-
-}
-
-.rsvp-subtitle{
-
-margin-bottom:35px;
-
-color:#777;
-
-}
-
-#rsvpForm{
-
-max-width:700px;
-
-margin:auto;
-
-}
-
-#rsvpForm input,
-#rsvpForm textarea,
-#rsvpForm select{
-
-width:100%;
-
-padding:18px;
-
-margin:12px 0;
-
-border-radius:15px;
-
-border:1px solid rgba(207,164,79,.35);
-
-background:white;
-
-font-size:16px;
-
-outline:none;
+cursor:pointer;
 
 transition:.3s;
 
 }
 
-#rsvpForm input:focus,
-#rsvpForm textarea:focus,
-#rsvpForm select:focus{
+#openInvitation:hover{
 
-border-color:#cfa44f;
+transform:translateY(-3px);
 
-box-shadow:0 0 10px rgba(207,164,79,.25);
+background:#7a263a;
 
 }
 
-#rsvpForm textarea{
+/* ===========================
+   HERO
+=========================== */
 
-min-height:150px;
+.hero{
 
-resize:vertical;
+min-height:100vh;
 
-}
+display:flex;
 
-#thanksMessage{
+justify-content:center;
 
-margin-top:25px;
+align-items:center;
 
-font-size:18px;
-
-font-weight:600;
-
-color:#7a263a;
-
-
-}
-/*=================================================
-DUA SECTION
-==================================================*/
-
-.dua-section{
-
-text-align:center;
-
-padding:100px 20px;
+padding:40px;
 
 }
 
-.dua-arabic{
-
-font-size:34px;
-
-line-height:2;
-
-color:#7a263a;
+.hero-card{
 
 max-width:900px;
 
-margin:35px auto;
+width:100%;
+
+background:rgba(255,255,255,.85);
+
+padding:70px 50px;
+
+border-radius:35px;
+
+border:2px solid rgba(200,161,77,.35);
+
+box-shadow:0 20px 60px rgba(0,0,0,.08);
+
+text-align:center;
+
+}
+
+.arabic{
+
+font-size:35px;
+
+color:#7a263a;
+
+margin-bottom:20px;
+
+}
+
+.hero-card h3{
+
+font-weight:400;
+
+letter-spacing:3px;
+
+margin-bottom:25px;
+
+color:#c8a14d;
+
+}
+
+.couple-name{
+
+font-family:'Great Vibes',cursive;
+
+font-size:78px;
+
+font-weight:400;
+
+line-height:1.3;
+
+color:#7a263a;
+
+}
+
+.couple-name span{
+
+color:#c8a14d;
+
+display:block;
+
+font-size:55px;
+
+margin:10px 0;
+
+}
+
+.verse{
+
+margin-top:35px;
+
+font-size:19px;
+
+line-height:1.8;
+
+font-style:italic;
+
+}
+
+.date-box{
+
+margin-top:45px;
+
+display:inline-block;
+
+padding:25px 45px;
+
+border:2px solid #c8a14d;
+
+border-radius:20px;
+
+}
+
+.date-box h2{
+
+font-size:60px;
+
+color:#7a263a;
 
 font-family:'Cormorant Garamond',serif;
 
 }
 
-.dua-english{
+.date-box p{
 
-font-size:18px;
+font-size:22px;
 
-line-height:1.9;
-
-max-width:750px;
-
-margin:auto;
-
-font-style:italic;
-
-color:#666;
+margin:5px 0;
 
 }
 
-/*=================================================
-FOOTER
-==================================================*/
+.date-box span{
 
-footer{
-
-margin-top:70px;
-
-padding:80px 20px;
-
-text-align:center;
-
-background:linear-gradient(135deg,#7a263a,#5e1d2d);
-
-color:white;
-
-border-top:5px solid #cfa44f;
+color:#888;
 
 }
 
-footer h2{
+/* Mobile */
 
-font-family:'Great Vibes',cursive;
+@media(max-width:768px){
 
-font-size:62px;
+.hero-card{
 
-margin-bottom:20px;
-
-font-weight:400;
+padding:45px 25px;
 
 }
 
-footer p{
+.couple-name{
 
-max-width:700px;
-
-margin:15px auto;
-
-line-height:1.9;
-
-opacity:.95;
+font-size:50px;
 
 }
 
-/*=================================================
-ANIMATIONS
-==================================================*/
+.date-box{
+
+width:100%;
+
+}
+
+.envelope{
+
+width:90%;
+
+padding:35px;
+
+}
+
+}
+/* ======================
+Animations
+====================== */
 
 .hidden{
 
 opacity:0;
 
-transform:translateY(70px);
+transform:translateY(60px);
 
-transition:all .9s ease;
+transition:1s ease;
 
 }
 
@@ -894,200 +354,139 @@ transform:translateY(0);
 
 }
 
-.person-card,
-.venue-card,
-.countdown-box div,
-.hero-card{
+/* =========================
+   COUPLE SECTION
+========================= */
 
-transition:all .35s ease;
+.couple-section,
+.countdown-section{
 
-}
-
-.hero-card:hover{
-
-transform:translateY(-6px);
+padding:90px 20px;
+text-align:center;
 
 }
 
-.person-card:hover,
-.venue-card:hover,
-.countdown-box div:hover{
+.couple-section h2,
+.countdown-section h2{
 
-box-shadow:0 25px 60px rgba(0,0,0,.12);
+font-family:'Cormorant Garamond',serif;
 
-}
+font-size:42px;
 
-/*=================================================
-SCROLLBAR
-==================================================*/
+color:#7a263a;
 
-::-webkit-scrollbar{
-
-width:10px;
+margin-bottom:40px;
 
 }
 
-::-webkit-scrollbar-track{
+.ornament{
 
-background:#faf4ec;
+color:#c8a14d;
 
-}
+font-size:25px;
 
-::-webkit-scrollbar-thumb{
-
-background:#cfa44f;
-
-border-radius:20px;
+margin-bottom:20px;
 
 }
 
-::-webkit-scrollbar-thumb:hover{
+.couple-container{
 
-background:#b88d35;
+display:flex;
 
-}
+justify-content:center;
 
-/*=================================================
-MOBILE
-==================================================*/
+align-items:center;
 
-@media(max-width:900px){
+gap:35px;
 
-.hero-card{
-
-padding:45px 28px;
-
-width:95%;
-
-}
-
-.couple-name{
-
-font-size:58px;
-
-}
-
-.couple-name span{
-
-font-size:45px;
-
-}
-
-.arabic{
-
-font-size:30px;
-
-}
-
-.date-box{
-
-width:100%;
-
-padding:22px;
-
-}
-
-.date-box h2{
-
-font-size:50px;
+flex-wrap:wrap;
 
 }
 
 .person-card{
 
-width:100%;
+background:white;
+
+padding:40px;
+
+width:350px;
+
+border-radius:25px;
+
+border:1px solid #d9bd7a;
+
+box-shadow:0 15px 40px rgba(0,0,0,.08);
 
 }
 
-.venue-card{
+.person-card h1{
 
-padding:35px 20px;
+font-family:'Great Vibes',cursive;
 
-}
+font-size:45px;
 
-.venue-details h1{
+color:#7a263a;
 
-font-size:34px;
-
-}
-
-.qr-box img{
-
-width:150px;
+margin:20px 0;
 
 }
 
-footer h2{
+.role{
 
-font-size:48px;
+color:#c8a14d;
 
-}
-
-}
-
-@media(max-width:600px){
-
-section{
-
-padding:70px 15px;
+letter-spacing:3px;
 
 }
 
-h2{
+.heart{
 
-font-size:36px;
+font-size:55px;
+
+color:#c8a14d;
 
 }
+
+/* COUNTDOWN */
 
 .countdown-box{
 
-gap:15px;
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+flex-wrap:wrap;
 
 }
 
 .countdown-box div{
 
+background:white;
+
+border:1px solid #d9bd7a;
+
 width:130px;
 
-padding:22px;
+padding:25px;
+
+border-radius:20px;
 
 }
 
 .countdown-box h1{
 
-font-size:42px;
+font-size:45px;
+
+color:#7a263a;
+
+font-family:'Cormorant Garamond',serif;
 
 }
 
-.dua-arabic{
+.countdown-box p{
 
-font-size:24px;
-
-line-height:1.8;
+color:#c8a14d;
 
 }
-
-button,
-.map-button{
-
-width:100%;
-
-}
-
-body::after{
-
-top:10px;
-
-left:10px;
-
-right:10px;
-
-bottom:10px;
-
-}
-
-}
-
-/*=================================================
-END
-==================================================*/
