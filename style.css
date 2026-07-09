@@ -490,3 +490,14 @@ font-family:'Cormorant Garamond',serif;
 color:#c8a14d;
 
 }
+
+.qr-code img{
+    width:180px;
+    height:180px;
+    display:block;
+    margin:20px auto;
+    border-radius:12px;
+    background:#fff;
+    padding:10px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
