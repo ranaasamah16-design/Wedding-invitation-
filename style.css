@@ -1,0 +1,1056 @@
+/* =================================
+   RANA ❤️ SAMAH WEDDING INVITATION
+   Pearl Floral Luxury Theme
+================================= */
+
+
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    min-height:100vh;
+
+    background:
+    radial-gradient(circle at top,
+    #fffdf8,
+    #f8efe5 70%);
+
+    color:#5a4a42;
+
+    overflow-x:hidden;
+
+}
+
+
+/* =================================
+   FLORAL + PEARL BACKGROUND
+================================= */
+
+
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    inset:0;
+
+    background:
+    url("images/floral-top-left.png") top left no-repeat,
+    url("images/floral-bottom-right.png") bottom right no-repeat;
+
+    background-size:
+    280px,
+    300px;
+
+    opacity:.9;
+
+    pointer-events:none;
+
+    z-index:-2;
+
+}
+
+
+
+body::after{
+
+    content:"";
+
+    position:fixed;
+
+    inset:0;
+
+
+    background-image:
+    radial-gradient(circle,
+    rgba(255,255,255,.8) 3px,
+    transparent 4px);
+
+
+    background-size:120px 120px;
+
+
+    opacity:.25;
+
+
+    pointer-events:none;
+
+
+    z-index:-3;
+
+}
+
+
+
+
+
+/* =================================
+   HERO SECTION
+================================= */
+
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:30px;
+
+}
+
+
+
+.hero-card{
+
+    width:100%;
+
+    max-width:850px;
+
+
+    padding:70px 50px;
+
+
+    background:
+    rgba(255,255,255,.82);
+
+
+    backdrop-filter:blur(12px);
+
+
+    border-radius:35px;
+
+
+    border:2px solid #d4af37;
+
+
+    box-shadow:
+    0 20px 50px rgba(0,0,0,.12);
+
+
+    text-align:center;
+
+
+    position:relative;
+
+}
+
+
+
+.hero-card::before{
+
+    content:"";
+
+
+    position:absolute;
+
+
+    inset:15px;
+
+
+    border:1px solid rgba(212,175,55,.6);
+
+
+    border-radius:25px;
+
+}
+
+
+
+
+
+/* =================================
+   HERO TEXT
+================================= */
+
+
+.bismillah{
+
+    font-size:55px;
+
+    color:#7b2033;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.welcome{
+
+    letter-spacing:2px;
+
+    color:#a8873c;
+
+    margin-bottom:25px;
+
+}
+
+
+
+/* Names */
+
+.hero-names{
+
+    font-family:'Great Vibes',cursive;
+
+    font-size:80px;
+
+    font-weight:400;
+
+    line-height:1.25;
+
+    color:#7b2033;
+
+}
+
+
+
+.hero-names span{
+
+    display:block;
+
+    color:#d4af37;
+
+    font-size:55px;
+
+}
+
+
+
+.groom-name,
+.bride-name{
+
+    white-space:nowrap;
+
+    word-break:keep-all;
+
+    overflow-wrap:normal;
+
+}
+
+
+
+
+.verse{
+
+    margin-top:30px;
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:26px;
+
+    font-style:italic;
+
+}
+
+
+
+.reference{
+
+    margin-top:10px;
+
+    color:#8d7a68;
+
+}
+
+
+
+
+/* =================================
+   DATE BOX
+================================= */
+
+
+.date-box{
+
+    margin:45px auto;
+
+
+    padding:25px 45px;
+
+
+    width:max-content;
+
+
+    border-radius:20px;
+
+
+    background:#fffaf3;
+
+
+    border:2px solid #d4af37;
+
+}
+
+
+
+.date-box h2{
+
+    font-family:'Cormorant Garamond',serif;
+
+
+    font-size:70px;
+
+
+    color:#7b2033;
+
+}
+
+
+
+.date-box p{
+
+    font-size:25px;
+
+}
+
+
+
+.date-box span{
+
+    color:#8c7b70;
+
+}
+
+
+
+
+
+/* =================================
+   BUTTON
+================================= */
+
+
+.btn{
+
+    display:inline-block;
+
+
+    padding:15px 40px;
+
+
+    border-radius:50px;
+
+
+    background:#7b2033;
+
+
+    color:white;
+
+
+    text-decoration:none;
+
+
+    transition:.3s;
+
+}
+
+
+
+.btn:hover{
+
+    background:#d4af37;
+
+
+    transform:translateY(-4px);
+
+}
+/* =================================
+   COUPLE SECTION
+================================= */
+
+
+.couple{
+
+    padding:100px 30px;
+
+    text-align:center;
+
+}
+
+
+
+.section-title p{
+
+    color:#c8a14d;
+
+    letter-spacing:2px;
+
+}
+
+
+
+.section-title h2{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:55px;
+
+    color:#7b2033;
+
+    margin:15px 0 50px;
+
+}
+
+
+
+
+.couple-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:35px;
+
+    flex-wrap:wrap;
+
+}
+
+
+
+
+.person-card{
+
+    width:350px;
+
+    padding:40px;
+
+
+    background:#fffaf3;
+
+
+    border-radius:25px;
+
+
+    border:1px solid #d4af37;
+
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.08);
+
+}
+
+
+
+.person-card h3{
+
+    color:#c8a14d;
+
+
+    letter-spacing:3px;
+
+
+    margin-bottom:20px;
+
+}
+
+
+
+.person-card h1{
+
+    font-family:'Great Vibes',cursive;
+
+
+    font-size:45px;
+
+
+    color:#7b2033;
+
+
+    margin-bottom:20px;
+
+
+    white-space:nowrap;
+
+
+    word-break:keep-all;
+
+}
+
+
+
+.person-card p{
+
+    line-height:1.8;
+
+}
+
+
+
+.heart{
+
+    font-size:45px;
+
+    animation:pulse 2s infinite;
+
+}
+
+
+
+@keyframes pulse{
+
+    50%{
+
+        transform:scale(1.15);
+
+    }
+
+}
+
+
+
+
+
+/* =================================
+   COUNTDOWN + EVENT
+================================= */
+
+
+.countdown,
+.event{
+
+    padding:100px 30px;
+
+    text-align:center;
+
+}
+
+
+
+.timer{
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    flex-wrap:wrap;
+
+
+    gap:20px;
+
+}
+
+
+
+.timer div{
+
+    width:130px;
+
+
+    padding:25px;
+
+
+    background:#fffaf3;
+
+
+    border:1px solid #d4af37;
+
+
+    border-radius:20px;
+
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.08);
+
+}
+
+
+
+.timer h1{
+
+    font-family:'Cormorant Garamond',serif;
+
+
+    font-size:50px;
+
+
+    color:#7b2033;
+
+}
+
+
+
+.timer p{
+
+    color:#8b7a6d;
+
+}
+
+
+
+
+
+.event-card{
+
+    max-width:900px;
+
+    margin:auto;
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    flex-wrap:wrap;
+
+
+    gap:25px;
+
+}
+
+
+
+.event-item{
+
+    width:260px;
+
+
+    padding:35px 25px;
+
+
+    background:#fffaf3;
+
+
+    border-radius:25px;
+
+
+    border:1px solid #d4af37;
+
+}
+
+
+
+.event-item span{
+
+    font-size:35px;
+
+}
+
+
+
+.event-item h3{
+
+    color:#7b2033;
+
+
+    margin:15px 0;
+
+
+    font-family:'Cormorant Garamond',serif;
+
+
+    font-size:30px;
+
+}
+
+
+
+.event-item p{
+
+    line-height:1.8;
+
+}
+
+
+
+
+
+/* =================================
+   LOCATION
+================================= */
+
+
+.location{
+
+    padding:100px 30px;
+
+    text-align:center;
+
+}
+
+
+
+.location-card{
+
+    max-width:900px;
+
+
+    margin:auto;
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    align-items:center;
+
+
+    gap:40px;
+
+
+    flex-wrap:wrap;
+
+
+    padding:50px;
+
+
+    background:#fffaf3;
+
+
+    border-radius:30px;
+
+
+    border:1px solid #d4af37;
+
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,.08);
+
+}
+
+
+
+
+.venue-details{
+
+    flex:1;
+
+}
+
+
+
+.venue-details span{
+
+    font-size:45px;
+
+}
+
+
+
+.venue-details h3{
+
+    font-family:'Cormorant Garamond',serif;
+
+
+    font-size:35px;
+
+
+    color:#7b2033;
+
+
+    margin:20px 0;
+
+}
+
+
+
+.venue-details p{
+
+    line-height:1.8;
+
+
+    margin-bottom:30px;
+
+}
+
+
+
+.map-button{
+
+    display:inline-block;
+
+
+    padding:14px 35px;
+
+
+    border-radius:50px;
+
+
+    background:#7b2033;
+
+
+    color:white;
+
+
+    text-decoration:none;
+
+
+    transition:.3s;
+
+}
+
+
+
+.map-button:hover{
+
+    background:#d4af37;
+
+}
+
+
+
+.qr-box{
+
+    padding:20px;
+
+
+    background:white;
+
+
+    border-radius:20px;
+
+
+    border:1px solid #d4af37;
+
+}
+
+
+
+.qr-box img{
+
+    width:180px;
+
+
+    height:180px;
+
+
+    object-fit:contain;
+
+}
+
+
+
+.qr-box p{
+
+    margin-top:15px;
+
+
+    color:#8b786c;
+
+}
+
+
+
+
+
+/* =================================
+   DUA + FOOTER
+================================= */
+
+
+.dua{
+
+    padding:70px 30px;
+
+    text-align:center;
+
+    background:#fffaf4;
+
+}
+
+
+
+.arabic{
+
+    font-size:34px;
+
+
+    color:#7b2033;
+
+
+    line-height:2;
+
+}
+
+
+
+.dua p{
+
+    margin-top:20px;
+
+}
+
+
+
+
+footer{
+
+    padding:50px 30px;
+
+
+    text-align:center;
+
+
+    background:#7b2033;
+
+
+    color:white;
+
+}
+
+
+
+footer h2{
+
+    font-family:'Great Vibes',cursive;
+
+
+    font-size:50px;
+
+
+    margin-bottom:15px;
+
+}
+
+
+
+
+
+/* =================================
+   MOBILE RESPONSIVE
+================================= */
+
+
+@media(max-width:768px){
+
+
+.hero{
+
+    padding:20px;
+
+}
+
+
+
+.hero-card{
+
+    padding:50px 25px;
+
+}
+
+
+
+.hero-names{
+
+    font-size:55px;
+
+}
+
+
+
+.hero-names span{
+
+    font-size:40px;
+
+}
+
+
+
+.person-card{
+
+    width:100%;
+
+}
+
+
+
+.person-card h1{
+
+    font-size:40px;
+
+}
+
+
+
+.timer div{
+
+    width:100px;
+
+}
+
+
+
+.event-item{
+
+    width:100%;
+
+}
+
+
+
+.location-card{
+
+    padding:35px 20px;
+
+}
+
+
+
+.section-title h2{
+
+    font-size:45px;
+
+}
+
+
+}
+
+
+
+@media(max-width:420px){
+
+
+.hero-names{
+
+    font-size:45px;
+
+}
+
+
+
+.groom-name,
+.bride-name{
+
+    font-size:34px;
+
+}
+
+
+
+.date-box{
+
+    padding:20px;
+
+}
+
+
+}
